@@ -16,61 +16,65 @@ ul {
   margin-bottom: 0;
 }
 body {
-  .roboto-regular {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  .roboto-medium {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  }
-  
+  font-family: 'Lexend Deca', sans-serif;
+  color: white;
+}
+
 .box {
+  position: relative;
   width: 330px;
   height: 430px;
   padding: 50px;
 }
 .box-orange {
-  background-color: #E28625;
+  background-color: #e28625;
 }
 .box-blue {
-  background-color: #006971 ;
+  background-color: #006971;
 }
 .box-darkblue {
   background-color: #004140;
 }
 .image {
-  width: 64px ;
+  position: absolute;
+  left: 20px;
+  top: 11px;
+}
+.circle {
+  position: relative;
+  width: 40px;
   height: 40px;
-} 
-h1 { font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  color: white;
+  border-radius: 50%;
+  background-color: rgb(0 0 0 / 0.2);
+}
+.title {
+  font-family: 'Big Shoulders Display', sans-serif;
 }
 
-p { font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: white;
+p {
+  font-family: 'Lexend Deca', sans-serif;
   padding-top: 16px;
   padding-bottom: 16px;
 }
 .button {
+  position: absolute;
+  bottom: 48px;
   border-style: none;
   border-radius: 20px;
   background-color: white;
   padding-left: 16px;
   padding-right: 16px;
-  padding-top: 8px ;
+  padding-top: 8px;
   padding-bottom: 8px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+  font-family: 'Lexend Deca', sans-serif;
 }
 .button-orange {
-  color:#E28625;
+  color: #e28625;
+}
+
+.button-blue {
+  color: #006971;
+}
+.button-darkblue {
+  color: #004140;
 }
