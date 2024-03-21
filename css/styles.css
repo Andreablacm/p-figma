@@ -15,26 +15,46 @@ ul {
   margin-top: 0;
   margin-bottom: 0;
 }
+
 body {
   font-family: 'Lexend Deca', sans-serif;
   color: white;
 }
-
 .box {
   position: relative;
   width: 330px;
   height: 430px;
   padding: 50px;
 }
+
 .box-orange {
   background-color: #e28625;
+  border-radius: 10px 10px 0 0;
 }
 .box-blue {
   background-color: #006971;
 }
 .box-darkblue {
   background-color: #004140;
+  border-radius: 0 0 10px 10px;
 }
+
+@media screen and (min-width: 768px) {
+  .box {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 307px;
+    height: 500px;
+  }
+
+  .box-orange {
+    border-radius: 10px 0 0 10px;
+  }
+  .box-darkblue {
+    border-radius: 0 10px 10px 0;
+  }
+}
+
 .image {
   position: absolute;
   left: 20px;
@@ -68,6 +88,14 @@ p {
   padding-bottom: 8px;
   font-family: 'Lexend Deca', sans-serif;
 }
+@media (hover: hover) {
+  .button:hover {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+  }
+}
+
 .button-orange {
   color: #e28625;
 }
